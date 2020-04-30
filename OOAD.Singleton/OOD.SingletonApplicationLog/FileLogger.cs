@@ -5,14 +5,13 @@ namespace OOD.SingletonApplicationLog
 {
     public class FileLogger : IConsoleLogger
     {
-        static int counter = 0;
+        public static int counter = 0;
         private static FileLogger _fileLogger;
         private string _path;
         private FileLogger(string path)
         {
             _path = path;
             counter++;
-            Console.WriteLine($"{counter}");
         }
         public static FileLogger GetFileLogger
         {
