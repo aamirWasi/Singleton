@@ -3,7 +3,7 @@ using System.IO;
 
 namespace OOD.SingletonApplicationLog
 {
-    public class FileLogger : IConsoleLogger
+    public sealed class FileLogger : IConsoleLogger
     {
         public static int counter = 0;
         private static FileLogger _fileLogger;
