@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.SingletonSealed", "OOD.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.SingletonApplicationLog", "OOD.SingletonApplicationLog\OOD.SingletonApplicationLog.csproj", "{9624A5E9-B5F4-475A-A078-6D231106CC0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOD.SingletonClass11", "OOD.SingletonClass11\OOD.SingletonClass11.csproj", "{CFAE1F2B-F0AB-4C71-AA83-EFF738B8125D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9624A5E9-B5F4-475A-A078-6D231106CC0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9624A5E9-B5F4-475A-A078-6D231106CC0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9624A5E9-B5F4-475A-A078-6D231106CC0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAE1F2B-F0AB-4C71-AA83-EFF738B8125D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAE1F2B-F0AB-4C71-AA83-EFF738B8125D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAE1F2B-F0AB-4C71-AA83-EFF738B8125D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAE1F2B-F0AB-4C71-AA83-EFF738B8125D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
